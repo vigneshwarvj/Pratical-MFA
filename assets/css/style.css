@@ -1,0 +1,91 @@
+.header{ 
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	align-content:center;
+}
+.header__logo {
+	width:150px;
+	
+}
+.navbar ul li{
+	display:inline;
+}
+.navbar ul li a{
+	margin:10px;
+	color:black;
+	text-decoration:none;
+	font-family: "Source Sans Pro";
+}
+.header button{
+	margin-top:15px;
+	margin-right:10px;
+	background-color:#c05326;
+    padding:10px;
+	border-radius:5px;
+	border-color:white;
+	color:white;
+}
+.alert{
+	padding:20px;
+	background-color:#f7eae4;
+	border-left: 10px solid #c05326;
+	margin-right:30px;
+}
+.hero{
+	background-image:url('../img/header-bike.jpg');
+	background-size:1000px;
+	width:920px;
+    height:240px;
+	top:25px;
+	padding-top:100px;
+	padding-bottom:100px;
+	padding-left:25px;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.hero p{
+	color:white;
+	font-family:"Source Sans Pro";
+}
+.hero button{
+	background-color:#c05326;
+    padding:10px;
+	border-radius:5px;
+	color:white;
+	border:0px;
+}
+.hero .btn{
+	color:#c05326;
+	background-color:white;
+	border:0px;
+}
+.hero h1{
+	color:white;
+}
+.content{
+	display:flex;
+}
+.heading-underline{
+	color:black;
+	font-family:"Source Sans Pro";
+	
+} 
+.article__thumbnail{
+	background-image:url('../img/spring-fundraisers_thumbnail.jpg')
+	background-size:500px;
+	width:140px;
+	height:80px;
+}
+.article__title-link{
+	color:#c05326;
+	text-decoration:none;
+}
+.arrow-right{
+	font-family: "Source Sans Pro";
+}
+
+.
+ 
+
